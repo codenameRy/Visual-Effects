@@ -1,0 +1,21 @@
+.main-image {
+    width: 70%;
+    height: 70%;
+}
+.photo-image {
+    width: 40%;
+    height: 40%;
+}
+
+.intro-text {
+    width: 40%;
+    opacity: 0;
+    transform: translateY(20px);
+    transition: 0.5s all ease-in-out;
+}
+
+.intro-appear {
+    opacity: 1;
+    transform: translateY(0px);
+}
+
